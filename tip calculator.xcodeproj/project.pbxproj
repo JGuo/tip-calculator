@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F25BE0E1C51BE1F001B874F /* tip calucaltor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip calucaltor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F25BE0E1C51BE1F001B874F /* tip calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F25BE111C51BE1F001B874F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F25BE131C51BE1F001B874F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F25BE161C51BE1F001B874F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		8F25BE051C51BE1F001B874F = {
 			isa = PBXGroup;
 			children = (
-				8F25BE101C51BE1F001B874F /* tip calucaltor */,
+				8F25BE101C51BE1F001B874F /* tip calculator */,
 				8F25BE0F1C51BE1F001B874F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		8F25BE0F1C51BE1F001B874F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F25BE0E1C51BE1F001B874F /* tip calucaltor.app */,
+				8F25BE0E1C51BE1F001B874F /* tip calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F25BE101C51BE1F001B874F /* tip calucaltor */ = {
+		8F25BE101C51BE1F001B874F /* tip calculator */ = {
 			isa = PBXGroup;
 			children = (
 				8F25BE111C51BE1F001B874F /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				8F25BE1A1C51BE1F001B874F /* LaunchScreen.storyboard */,
 				8F25BE1D1C51BE1F001B874F /* Info.plist */,
 			);
+			name = "tip calculator";
 			path = "tip calucaltor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F25BE0D1C51BE1F001B874F /* tip calucaltor */ = {
+		8F25BE0D1C51BE1F001B874F /* tip calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F25BE201C51BE1F001B874F /* Build configuration list for PBXNativeTarget "tip calucaltor" */;
+			buildConfigurationList = 8F25BE201C51BE1F001B874F /* Build configuration list for PBXNativeTarget "tip calculator" */;
 			buildPhases = (
 				8F25BE0A1C51BE1F001B874F /* Sources */,
 				8F25BE0B1C51BE1F001B874F /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "tip calucaltor";
+			name = "tip calculator";
 			productName = "tip calucaltor";
-			productReference = 8F25BE0E1C51BE1F001B874F /* tip calucaltor.app */;
+			productReference = 8F25BE0E1C51BE1F001B874F /* tip calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F25BE091C51BE1F001B874F /* Build configuration list for PBXProject "tip calucaltor" */;
+			buildConfigurationList = 8F25BE091C51BE1F001B874F /* Build configuration list for PBXProject "tip calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F25BE0D1C51BE1F001B874F /* tip calucaltor */,
+				8F25BE0D1C51BE1F001B874F /* tip calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -249,8 +250,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tip calucaltor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jisi.tip-calucaltor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jisi.tip-calculator";
+				PRODUCT_NAME = "tip calculator";
 			};
 			name = Debug;
 		};
@@ -260,15 +261,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tip calucaltor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jisi.tip-calucaltor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jisi.tip-calculator";
+				PRODUCT_NAME = "tip calculator";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F25BE091C51BE1F001B874F /* Build configuration list for PBXProject "tip calucaltor" */ = {
+		8F25BE091C51BE1F001B874F /* Build configuration list for PBXProject "tip calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F25BE1E1C51BE1F001B874F /* Debug */,
@@ -277,13 +278,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F25BE201C51BE1F001B874F /* Build configuration list for PBXNativeTarget "tip calucaltor" */ = {
+		8F25BE201C51BE1F001B874F /* Build configuration list for PBXNativeTarget "tip calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F25BE211C51BE1F001B874F /* Debug */,
 				8F25BE221C51BE1F001B874F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
